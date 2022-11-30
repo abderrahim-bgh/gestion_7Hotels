@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".reservation">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="30dp"
+         android:layout_gravity="center_horizontal"
+         android:gravity="center_horizontal"
+         android:layout_marginTop="7dp"
+         android:textColor="#FFEB3B"
+         android:text=""
+         android:id="@+id/cattt" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Nom:"
+       android:textColor="#FFFFFF"
+       android:textSize="20dp"
+       android:layout_marginHorizontal="10dp" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="enter le nom"
+        android:textSize="25dp"
+        android:id="@+id/nomP"
+        android:background="#BE151B1E"
+        android:layout_marginVertical="3dp"
+        android:textColorHint="#3F51B5"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prenom:"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="10dp" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="enter le prenom"
+        android:textSize="25dp"
+        android:id="@+id/prenom"
+        android:background="#BE151B1E"
+        android:layout_marginVertical="3dp"
+        android:textColorHint="#3F51B5"
+        android:layout_marginHorizontal="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date naissance:"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="10dp" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="00/00/0000"
+        android:textSize="25dp"
+        android:id="@+id/dn"
+        android:background="#BE151B1E"
+        android:layout_marginVertical="3dp"
+        android:textColorHint="#3F51B5"
+        android:layout_marginHorizontal="6dp"
+        />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ville:"
+    android:textColor="#FFFFFF"
+    android:textSize="20dp"
+    android:layout_marginHorizontal="10dp" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="la ville ou tu habites"
+        android:textSize="25dp"
+        android:id="@+id/ville"
+        android:background="#BE151B1E"
+        android:layout_marginVertical="3dp"
+        android:textColorHint="#3F51B5"
+        android:layout_marginHorizontal="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CP:"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="10dp" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="CP"
+        android:textSize="25dp"
+        android:id="@+id/cp"
+        android:background="#BE151B1E"
+        android:layout_marginVertical="3dp"
+        android:textColorHint="#3F51B5"
+        android:layout_marginHorizontal="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pays:"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="10dp" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Agerire, france ..."
+        android:textSize="25dp"
+        android:id="@+id/pays"
+        android:background="#BE151B1E"
+        android:layout_marginVertical="3dp"
+        android:textColorHint="#3F51B5"
+        android:layout_marginHorizontal="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telephone:"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="10dp" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="+213 *********"
+        android:textSize="25dp"
+        android:id="@+id/tele"
+        android:background="#BE151B1E"
+        android:layout_marginVertical="3dp"
+        android:textColorHint="#3F51B5"
+        android:layout_marginHorizontal="10dp"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Date debut"
+                android:layout_gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="10dp" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="60dp"
+                android:text="Date d"
+                android:textSize="25dp"
+                android:id="@+id/dated"
+                android:background="#BE151B1E"
+                android:layout_marginVertical="3dp"
+                android:textColor="#3F51B5"
+                android:layout_marginHorizontal="10dp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Date fine"
+                android:layout_gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="10dp" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="60dp"
+                android:text="DateF"
+                android:id="@+id/datef"
+                android:textSize="25dp"
+                android:background="#BE151B1E"
+                android:layout_marginVertical="3dp"
+                android:textColor="#3F51B5"
+                android:layout_marginHorizontal="10dp"
+                />
+        </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:text="réserver"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:id="@+id/rsrv2"
+        android:background="#068176"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
